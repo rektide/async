@@ -19,5 +19,5 @@
   , "nodelint": ">0.0.0"
   }
 , "scripts":
-  { "test": "nodeunit test/test-async.js" }
+  { "test": "./node_modules/nodeunit/bin/nodeunit test/test-async.js" }
 }
